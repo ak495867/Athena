@@ -53,16 +53,43 @@ The ATHENA interface is an industrial-grade terminal dashboard built for real-ti
 *   Python 3.10+
 *   Groq API Key (Exported as GROQ_API_KEY)
 
-### Installation
+### Create Virtual Environment
+```bash
+python -m venv venv
+```
+
+### Activate Virtual Environment
+
+**Windows**
+```bash
+.\venv\Scripts\activate
+```
+
+**Linux/macOS**
+```bash
+source venv/bin/activate
+```
+
+### Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### Execution
+### Initialize ATHENA Environment
+```bash
+python setup_env.py
+```
+
+This will:
+- Verify your configuration
+- Create the ATHENA workspace structure
+- Check required dependencies
+- Prepare the research environment
+
+### Run ATHENA
 ```bash
 python tui.py
 ```
-
 ---
 
 ## Scientific Auditability
