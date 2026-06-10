@@ -8,7 +8,8 @@ from datetime import datetime
 from typing import List, Dict, Any, Optional
 from dotenv import load_dotenv
 import keyboard
-
+import threading
+from queue import Queue
 from rich.console import Console
 from rich.panel import Panel
 from rich.markdown import Markdown
