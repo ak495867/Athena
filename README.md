@@ -1,6 +1,6 @@
 <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="art/header-dark.png">
-   <img alt="Logo for Athena" src="art/header-light.png">
+   <source media="(prefers-color-scheme: dark)" srcset="Assets/header-dark.png">
+   <img alt="Logo for Athena" src="Assets/header-light.png">
 </picture>
 
 # ATHENA 4.0: Autonomous Multi-Agent Research Framework
