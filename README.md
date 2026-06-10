@@ -1,3 +1,8 @@
+<picture>
+   <source media="(prefers-color-scheme: dark)" srcset="art/header-dark.png">
+   <img alt="Logo for Athena" src="art/header-light.png">
+</picture>
+
 # ATHENA 4.0: Autonomous Multi-Agent Research Framework
 
 ATHENA is an autonomous, research-oriented agent orchestration framework designed for systematic scientific discovery, empirical validation, and automated report generation. The system employs a multi-agent loop to facilitate deep literature traversal, claim verification, and iterative experimentation within stateful local environments.
@@ -53,16 +58,43 @@ The ATHENA interface is an industrial-grade terminal dashboard built for real-ti
 *   Python 3.10+
 *   Groq API Key (Exported as GROQ_API_KEY)
 
-### Installation
+### Create Virtual Environment
+```bash
+python -m venv venv
+```
+
+### Activate Virtual Environment
+
+**Windows**
+```bash
+.\venv\Scripts\activate
+```
+
+**Linux/macOS**
+```bash
+source venv/bin/activate
+```
+
+### Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### Execution
+### Initialize ATHENA Environment
+```bash
+python setup_env.py
+```
+
+This will:
+- Verify your configuration
+- Create the ATHENA workspace structure
+- Check required dependencies
+- Prepare the research environment
+
+### Run ATHENA
 ```bash
 python tui.py
 ```
-
 ---
 
 ## Scientific Auditability
