@@ -1,0 +1,17 @@
+openai
+beautifulsoup4
+python-dotenv
+arxiv
+wikipedia
+networkx
+pymupdf
+matplotlib
+pandas
+groq
+rich
+prompt_toolkit
+chromadb
+sentence-transformers
+requests
+keyboard
+duckduckgo-search
