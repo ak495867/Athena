@@ -52,6 +52,13 @@ The ATHENA interface is an industrial-grade terminal dashboard built for real-ti
 
 ---
 
+![Dashboard](Assets/dashboard.png)
+
+---
+
+![Main Interface](Assets/main.png)
+
+---
 ## Quick Start
 
 ### Prerequisites
